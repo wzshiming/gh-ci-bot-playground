@@ -49,10 +49,13 @@ env:
 
   REVIEWERS: |-
     wzshiming
+    xs-cw
   APPROVERS: |-
     wzshiming
+    xs-cw
   MAINTAINERS: |-
     wzshiming
+    xs-cw
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   GH_REPOSITORY: ${{ github.repository }}
   DETAILS: |-
