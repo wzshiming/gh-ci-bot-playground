@@ -23,6 +23,16 @@ env:
     label-documentation
     label-enhancement
     label-question
+    label-duplicate
+    label-good-first-issue
+    label-help-wanted
+    label-invalid
+    label-kind
+    label-wontfix
+    lifecycle
+    label-lgtm
+    retitle
+    merge
   
   # This plugins is for organization member or repository member
   MEMBERS_PLUGINS: |-
@@ -49,13 +59,10 @@ env:
 
   REVIEWERS: |-
     wzshiming
-    xs-cw
   APPROVERS: |-
     wzshiming
-    xs-cw
   MAINTAINERS: |-
     wzshiming
-    xs-cw
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   GH_REPOSITORY: ${{ github.repository }}
   DETAILS: |-
